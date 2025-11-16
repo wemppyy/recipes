@@ -1,0 +1,7 @@
+.recipes_short_list {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    height: 390px;
+}

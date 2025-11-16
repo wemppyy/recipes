@@ -1,0 +1,10 @@
+.recipes_list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.recipe_item {
+    width: calc(25% - 15px);
+    border-radius: 8px;
+}

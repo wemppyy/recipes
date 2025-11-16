@@ -1,0 +1,33 @@
+.pagination {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    gap: 8px;
+}
+
+.pagination_button {
+    width: 30px;
+    height: 30px;
+    border: none;
+    color: var(--color-black);
+    font-weight: bold;
+    background: none;
+    font-family: var(--font-main);
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.pagination_button.active {
+    color: var(--color-red);
+}
+
+.pagination_separator {
+    width: 15px;
+    height: 3px;
+    background-color: var(--color-black);
+    border-radius: 3px;
+    opacity: 0.25;
+    align-self: center;
+
+}

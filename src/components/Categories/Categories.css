@@ -1,0 +1,31 @@
+@import "../../root.css";
+
+.categories_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 1rem;
+}
+
+.category_card {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+}
+
+.category_image {
+    width: 76px;
+    height: 76px;
+    object-fit: contain;
+    border-radius: 16px;
+    display: block;
+}
+
+.category_title {
+    font-size: 18px;
+    text-align: center;
+}
+
+.category_link {
+    text-decoration: none;
+    color: var(--color-black);
+}

@@ -1,0 +1,31 @@
+@import '../../root.css';
+
+.search_bar {
+    display: flex;
+    margin: 20px 0;
+    gap: 8px;
+}
+
+.search_input {
+    flex: 1;
+    height: 50px;
+    padding: 0 16px;
+    font-size: 16px;
+    border: 2px solid var(--color-black);
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: var(--font-main);
+}
+
+.search_button {
+    width: 120px;
+    height: 50px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+    border: none;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--font-main);
+    cursor: pointer;
+}

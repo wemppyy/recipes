@@ -1,0 +1,20 @@
+.favorite_card {
+    width: 300px;
+    position: relative;
+}
+
+.remove_favorite_button {
+    padding: 8px 12px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 18px;
+    cursor: pointer;
+    font-size: 14px;
+    font-family: var(--font-main);
+    font-weight: 500;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+    z-index: 2;
+}
